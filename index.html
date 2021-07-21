@@ -6,6 +6,27 @@
 		<link rel="stylesheet" href="library.css">
 	</head>
 	<body>
+		<div id="book-form">
+			<form>
+				<label for="title">Title</label><br>
+				<input type="text" id="title" name="title"><br>
+
+				<label for="author">Author</label><br>
+				<input type="text" id="author" name="author"><br>
+
+				<label for="pages"># of Pages</label><br>
+				<input type="text" id="pages" name="pages"><br>
+
+				<p>Have you read this book?</p>
+				<label for="read-yes">Yes</label><br>
+				<input type="radio" id="read" name="read" value="Yes"><br>
+
+				<label for="read-no">No</label><br>
+				<input type="radio" id="read-no" name="read" value="No"><br>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 		<div id="container"></div>
 		<script src="library.js"></script>
 	</body>
